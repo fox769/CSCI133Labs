@@ -35,5 +35,4 @@ int main() {
    else if (hour >= 18 && hour <= 24){ //same as above but for hours 18 to 24 (midnight)
    	cout << "Good Evening sir/madam \n" << endl;
    }
-   cout << "test" << endl;
 }
