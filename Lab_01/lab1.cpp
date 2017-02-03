@@ -2,7 +2,7 @@
 Author: David Yuan
 Course: {135,136}
 Instructor: Mr. Zamansky
-Assignment: Lab 1
+Assignment: Lab 1 Task 1
  */
 
 #include <iostream>
