@@ -3,6 +3,8 @@ Author: David Yuan
 Course: {135,136}
 Instructor: Mr. Zamansky
 Assignment: Lab 1 Task 1
+
+This program asks user for time and greets them appropriately based on their input.
  */
 
 #include <iostream>
