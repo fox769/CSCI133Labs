@@ -1,0 +1,19 @@
+* Project 1 grades
+
+
+
+
+| Category            | Score | Notes        |
+|---------------------+-------+--------------|
+| Correctness 0 (10)  |    10 |              |
+| Correctness 1 (25)  |    25 |              |
+| Correctness 2 (25)  |     0 | Task missing |
+|---------------------+-------+--------------|
+| Testing (15)        |    15 |              |
+| Structure (10)      |    10 |              |
+| Documentation  (15) |     5 |              |
+|---------------------+-------+--------------|
+| Total               |    65 |              |
+#+TBLFM: @>$2=vsum(@2..@-1)
+
+
