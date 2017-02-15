@@ -2,7 +2,8 @@
 Course: {135,136}   
 Instructor: MIKE ZAMANSKY   
 Assignment: LAB 2   
-This program does does Velhurst Formula */ 
+This program does does Velhurst Formula taking in parameters 
+*/
 
 #include <iostream>
 using namespace std;
