@@ -14,7 +14,6 @@ int main()
 	int m = 100; //carrying capacity
 	float h = 0.20; //minimum loss rate (float val b/c it's a percent)
 	int k = 20; //number of years passed
-	int x;
 	int y;
 	int z = 0;
 	/*
@@ -35,11 +34,11 @@ int main()
 	cout << h << endl;
 	cout << k << endl;
 
+	int x = (z+g-h)*p-(p*p/m);
 	cout << "Year    Population" << endl;
 	while (z < k + 1)
 		{
-			cout << z << "	" << (1+g-h)p-((g*p)*(p/m));
-//			z = z + 1 
+			cout << z << "	" << (z+g-h)*p-(p*p/m);
 			cout << z << endl;
 			z = z + 1;
 		}
