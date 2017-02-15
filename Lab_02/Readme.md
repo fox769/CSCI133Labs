@@ -1,7 +1,7 @@
 Lab 2 Readme.md file
 These are the patterns for the changing growth rate.
 
-g = 2
+g = 200%
 >
 	Year    Population
 	1		26
@@ -25,9 +25,9 @@ g = 2
 	19		179
 	20		180
 
-When the growth rate is set to 2, this is where the population starts to show noticible oscilation. The population caps out a 195 but goes up and down around 179 and 180 during the last quarter.
+When the growth rate is set to 200%, this is where the population starts to show noticible oscilation. The population caps out a 195 but goes up and down around 179 and 180 during the last quarter.
 
-g=.3
+g = 30%
 >
 	Year    Population
 	1		9
@@ -53,7 +53,7 @@ g=.3
 
 At 30% growth rate the population stagnates and doesn't change at all in the following years.
 
-g = 3
+g = 300%
 	Year    Population
 	1		36
 	2		123
