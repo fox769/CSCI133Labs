@@ -7,3 +7,11 @@ This program does does...
 
 #include <iostream>
 using namespace std;
+
+int main()
+{
+	int stars = 
+	cout << << endl;
+	
+	return 0;
+}
