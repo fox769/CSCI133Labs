@@ -1,0 +1,28 @@
+* 
+
+| Category               | Score | Notes |
+|------------------------+-------+-------|
+| Correctness  (40)      |    37 |     1 |
+| Input Validation (10)  |    10 |       |
+|------------------------+-------+-------|
+| Testing (15)           |    15 |       |
+| Analysis - part 2 (15) |    15 |       |
+| Structure (10)         |     3 |     2 |
+| Documentation  (10)    |     5 |     3 |
+|------------------------+-------+-------|
+| Total                  |    85 |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+* Notes:
+1. Didn't give correct answer (I asked for no input on final version
+   with the input all commented out, you left in input for g.
+2. Global variables are generally bad, the variables should be in the
+   functions. You also didn't provide a verhulst function as required
+   but did everything in main. Code is also more convoluted than
+   necessary.
+3. Didn't put in the hard/easy part as requestsed
+* 
+Overall, functionality is good but it's important to follow
+specifications and directions.
+
+
+ 
