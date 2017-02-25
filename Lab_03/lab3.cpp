@@ -26,7 +26,7 @@ string rect(int w, int h) {
 	{
 		cout << "*";
 	}
-	return s;
+	//	return s;
 
 		for(int i=0;i<h;i++)
 		{

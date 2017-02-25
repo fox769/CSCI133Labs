@@ -1,0 +1,16 @@
+| Category            | Score | Notes |
+|---------------------+-------+-------|
+| Correctness  (75)   |    45 | 1,2,3 |
+|---------------------+-------+-------|
+| Testing (10)        |    10 |       |
+| Documentation  (15) |    11 | 4     |
+|---------------------+-------+-------|
+| Total               |    66 |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+* Notes 
+1. Rectangle doesn't work -- you draw the top line right then return
+   before drawing the middle section and need to draw multiple spaces
+   in each of the middle sections
+2. Trap is incorrect
+3. Circle not completed
+4. No indication in code or readme what does and doesn't work.
