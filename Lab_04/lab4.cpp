@@ -35,7 +35,15 @@ int c(int n, int k){
 //	}
 }
 
-//int c2(int n, int k);
+int c2(int n, int k){
+	int num = 1;
+	for (int i = n; i < n - k; i--){
+		num *=i;
+	}
+	cout << endl << num;
+	//factorial(k);
+}
+
 
 //double c4(int n, int k);
 
@@ -47,5 +55,7 @@ int main(){
 	1 
 	6295680
 	*/
+	c2(9,4);
+	cout << endl;
 	return 0;
 }
