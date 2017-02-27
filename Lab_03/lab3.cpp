@@ -22,9 +22,17 @@ string rect(int w, int h)
 	string  s="";
 	for(int i=1;i<=h;i++)
 	{
+<<<<<<< HEAD
 		if(i==1 || i==h)
 			s+=line(w,"*") + "\n" ;
 		else
+=======
+		cout << "*";
+	}
+	//	return s;
+
+		for(int i=0;i<h;i++)
+>>>>>>> 90055d4a4fd219f336b7ab0ea21ace1b4961c4d6
 		{
 			s+= "*" + line(w-2," ")+ "*" + "\n";
 
