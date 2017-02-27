@@ -5,9 +5,6 @@ Assignment: LAB 3
 This program does does...
 */
 
-// ========================= RECT =========================
-
-
 #include <iostream>
 #include <string>
 #include <math.h>
@@ -20,22 +17,21 @@ string line(int l, string c){
 	return s;
 }
 
-string rect(int w, int h) {
-	string s;
-	for (int i=0;i<w;i++)
+string rect(int w, int h)
+{
+	string  s="";
+	for(int i=1;i<=h;i++)
 	{
-		cout << "*";
+		if(i==1 || i==h)
+			s+=line(w,"*") + "\n" ;
+		else
+		{
+			s+= "*" + line(w-2," ")+ "*" + "\n";
+
+		}
 	}
 	return s;
-
-		for(int i=0;i<h;i++)
-		{
-			cout << "*" << " " << "*" << endl;
-			s+=line(w,"*")+"\n";
-		}
-		return s;
 }
-
 
 string tri1(int side) {
 	string s;
@@ -46,13 +42,15 @@ string tri1(int side) {
 	return s;
 }
 
+
 string trap(int side, int height) {
 	string s;
-	for(int i=height-5;i<=height;i++)
+	for(int i= height*(2/3);i<=side;i++)
 	{
-		s+=line(height-i," ")+line(i,"*")+line(i-1,"*")+"\n";
+		s+=line(i,"*")+"\n";
 	}
 	return s;
+
 }
 
 string tri2(int side) { //upper half of square
@@ -75,10 +73,10 @@ int main(){
 		cout << tri2(6) << endl;
 
 		cout << "========================= TRAP =========================" << endl << endl;
-		cout <<	trap(5,3) << endl;
+		cout << trap(9,5) << endl;
 
 		cout << "========================= RECT =========================" << endl << endl;
-		cout << rect(6,3) << endl;
+		cout << rect(5,4) << endl;
 
 
 	return 0;
