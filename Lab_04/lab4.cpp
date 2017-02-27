@@ -12,7 +12,7 @@ using std::endl;
 
 int factorial(int);
 
-int factorial(int n)
+int factorial(int n) //I searched it up, not sure if this is the way to do it.
 {
 	int num;
     if (n > 1) 
