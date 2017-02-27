@@ -1,93 +1,21 @@
 #include <iostream>
-
+#include <stdlib.h>
+#include "shapes.h"
 using std::cout;
 using std::endl;
-
-void line(int size, char c){
-	for (int col = 1; col <= size; col++) {
-		cout << c;
-
-	}
-}
-
-
-/*
-*
-**
-***
-****
-*****
-height = 5
-*/
-
-void tri1(int height){
-	for (int row = 1; row <= height; row++) {
-		line(row,'*');
-		cout << endl;
-	} 
-}
-
-void tri2(int height){
-	for (int row =1; row <= height; row++){
-		line(height-row,' ');
-		line(row,'*');
-		cout << endl;
-	}
-}
-
-void rect(int width, int height){
-	line (width,'*');
-	cout << endl;
-	for (int row =1; row <=height-2; row++){
-		cout << '*';
-		line (width-2,' ');
-		cout << '*';
-		cout << endl;
-	}
-	line(width,'*');
-	cout << endl;
-}
-
-/*
-	***
-	****
-	*****
-	side = 5 , height = 5
-*/
-
-void trap(int side, int height){
-	for (int row = 1; row <= height; row++) {
-		line(side-height+row,'*');
-		cout << endl;
-	} 
-}
-
-void circle(int r){
-	int x,y;
-
-	for (y = -2*r; y <= 2*r;y=y+1){
-		for (x = -2 * r; x < 2*r; x=x+1) {
-			if (x*x + y*y == r*r)
-				cout << '*';
-			else
-				cout << ' ';
-		}
-		cout << endl;
-	}
-}
 
 
 int main()
 {
-	tri1(6);
-	cout << "---------------------" << endl << endl;
-	tri2(6);
-	cout << "---------------------" << endl << endl;
-	trap(5,3);
-	cout << "---------------------" << endl << endl;
-	rect(6,5);
-	cout << "---------------------" << endl << endl;
-	circle (5);
-	cout << "---------------------" << endl << endl;
-	return 0;	
+  tri1(6);
+  cout << endl << "---------------------" << endl;
+  tri2(6);
+  cout << endl << "---------------------" << endl;
+  trap(5,3);
+  cout << endl << "---------------------" << endl;
+  rect(6,5);  
+  cout << endl << "---------------------" << endl;
+  circle(5);  
+  cout << endl << "---------------------" << endl;  
+  return 0;
 }
