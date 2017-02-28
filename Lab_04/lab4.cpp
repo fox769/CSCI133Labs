@@ -26,22 +26,14 @@ int factorial(int n) //I searched it up, not sure if this is the way to do it.
 }
 
 int c(int n, int k){
-//	for(int i=1; i<n; i++) //with this for loop it repeats, but w/o it, at the end it outputs 6295680 for some reason
 
-//	{
 		cout << endl << n * factorial (n-1) << endl << endl; //outputs n!
 		cout << k * factorial (k-1) << endl << endl; //outputs k!
 		cout << (n-k)* factorial (n-k-1) << endl; //outputs (n-k)!
-//	}
 }
 
 int c2(int n, int k){
-	int num = 1;
-	for (int i = n; i < n - k; i--){
-		num *=i;
-	}
-	cout << endl << num;
-	//factorial(k);
+
 }
 
 
@@ -49,13 +41,6 @@ int c2(int n, int k){
 
 int main(){
 	cout << endl << c(5,4) << endl << endl; 
-	/*outputs 
-	120 
-	24 
-	1 
-	6295680
-	*/
-	c2(9,4);
-	cout << endl;
+	cout << c(3,2);	cout << endl << c(5,4);
 	return 0;
 }
