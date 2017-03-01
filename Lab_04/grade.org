@@ -1,0 +1,17 @@
+| Category                    | Score | Notes |
+|-----------------------------+-------+-------|
+| Correctness  (65)           |    45 |     1 |
+|-----------------------------+-------+-------|
+| Structure (10)              |    10 |       |
+| Program Documentation  (10) |     5 |     2 |
+| Question documentation (15) |    15 |       |
+| Lateness penalty            |    -5 |       |
+|-----------------------------+-------+-------|
+| Total                       |    70 |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+* Notes
+1. Functions should have returned a result not printed (cout) one.
+2. Output unclear - it's not clear that things actually work and
+   what's going on where.
+
+   
