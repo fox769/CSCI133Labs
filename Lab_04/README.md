@@ -11,7 +11,12 @@ In the function:
 	}
 >
 
-With this for loop it repeats, but without it, at the end it outputs 6295680 for some reason.
+When calling the funcation with:
+
+>
+	cout << endl << c(5,4)
+
+It works, but with this loop it repeats, but without it, at the end it outputs 6295680 for some reason.
 
 I assume there is an overflow error but I don't know why.
 
