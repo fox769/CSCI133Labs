@@ -1,5 +1,5 @@
 #include <iostream>
-#include <digits.h>
+// #include <digits.h>
 using namespace std;
 
 int getDigit(int num, int index){ //return the index'th digit of the num
@@ -20,17 +20,6 @@ int numDigits(int num){ //return the number of digits in num
     	return digits;
 }
 
-int sumDigits(int num){
-	int sum = 0;
-	for(int i = 0;i < numDigits(num);i++){
-		sum+=getDigit(num, i);
-	}
-	if(sum >= 10){
-		return sumDigits(sum);
-	}else{
-		return sum;
-	}
-}
 
 //TASK 0
 int sumDigits(int num){ //not sure if this is the correct way to do it
@@ -48,4 +37,14 @@ int sumDigits(int num){ //not sure if this is the correct way to do it
         num /= 10;
     }
     return sum;
+}
+
+int main()
+{
+	int num;
+	cout << "enter a number" << endl;
+	cin >> num;
+	cout << getDigit(num, num) << endl;
+	cout << numDigits (num) << endl;
+	return 0;
 }
