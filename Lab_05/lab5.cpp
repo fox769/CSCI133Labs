@@ -31,9 +31,9 @@ int sumDigits(int num) //not sure if this is the correct way to do it
 int main()
 {
  	int num;
-    cout << "enter a number" << endl;
+    cout << "Enter a number:" << endl;
     cin >> num;
-    cout << sumDigits(num) << endl;
+    cout << "The sum of your number is " << sumDigits(num) << endl;
     return 0;
 }
 

@@ -19,16 +19,7 @@ int numDigits(int num){ //return the number of digits in num
   	while (num != 0);
     	return digits;
 }
-/*
-int transformNum(int num){
-  int sum = 0;
-  for (int i = 1; i < numDigits; i++) {
-    sum += getDigits(num, i);
-  }
-    
-  
-}
-*/
+
 int sumDigits(int num){
 	int sum = 0;
 	for(int i = 0;i < numDigits(num);i++){
@@ -41,15 +32,20 @@ int sumDigits(int num){
 	}
 }
 
-void transformNum(int& num){
-	if(sumDigits(num) == 9){
-		return;
-	}
+//TASK 0
+int sumDigits(int num){ //not sure if this is the correct way to do it
 
-	int modifier = sumDigits(num); //for 59, modifier should be 5
-	if(getDigit(num, 0) + 9 - modifier >= 10){
-		num = num - modifier;
-	}else{
-		num = num + 9 - modifier;
-	}
+    int sum = 0;
+    
+    while(num > 0 || sum > 9) //does the function if the num>9
+    {
+        if(num == 0)
+        {
+            num = sum;
+            sum = 0;
+        }
+        sum += num % 10;
+        num /= 10;
+    }
+    return sum;
 }
