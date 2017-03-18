@@ -1,0 +1,12 @@
+| Category            | Score | Notes |
+|---------------------+-------+-------|
+| Correctness  (65)   |    35 |       |
+|---------------------+-------+-------|
+| structure (20)      |    20 |       |
+| Documentation  (15) |     5 |       |
+|---------------------+-------+-------|
+| Total               |    60 |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+* Notes 
+Program didn't present the menu which was the main part of this lab.
+
