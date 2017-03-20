@@ -1,0 +1,16 @@
+| Category                        | Score | Notes |
+|---------------------------------+-------+-------|
+| Correctness  (75)               |    45 |      |
+|---------------------------------+-------+-------|
+| Structure (10)                  |     0 |       |
+| Testing (not catch, in general) |     0 |       |
+| Program Documentation  (5)      |     0 |       |
+|---------------------------------+-------+-------|
+| Total                           |       |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+
+
+digits.cpp and main.cpp are essentially the same file. The Readme is
+empty so you have given no directions and the program doesn't produce
+the correct output.
+
