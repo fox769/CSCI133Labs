@@ -1,0 +1,15 @@
+| Category               | Score | Notes |
+|------------------------+-------+-------|
+| Correctness task0 (10) |     0 |       |
+| Correctness task1 (20) |     0 |       |
+| Correctness task2 (20) |     0 |       |
+| Correctness task3 (20) |     0 |       |
+|------------------------+-------+-------|
+| structure (20)         |     0 |       |
+| Documentation  (10)    |     0 |       |
+| Misc                   |       |       |
+|------------------------+-------+-------|
+| Total                  |       |       |
+#+TBLFM: @>$2=vsum(@2..@-1)
+
+* Notes
